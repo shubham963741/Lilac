@@ -3,6 +3,8 @@
 
 namespace Lilac {
 	void Print() {
-		printf("Hello World!");
+		// test file to be used for lilac namespace functions testing
+		printf("Lilac version 1.x.x");
+		printf("Lilac namespace functions below");
 	}
 }
