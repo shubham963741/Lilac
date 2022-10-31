@@ -20,9 +20,11 @@ subprocess.call(["git", "submodule", "update", "--init", "--recursive"])
 
 if (premakeInstalled):
     if platform.system() == "Windows":
-        print("\nRunning premake...")
+        print("\nRunning premake.....Windows")
         subprocess.call([os.path.abspath("./scripts/Win-GenProjects.bat"), "nopause"])
-
+    elif platform.system() == "Darwin""
+        print("\nRunning premake......MacOS")
+        # TODO: Implement
     print("\nSetup completed!")
 else:
     print("Hazel requires Premake to generate project files.")
